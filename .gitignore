@@ -34,7 +34,3 @@ Thumbs.db
 *.tmp
 *.log
 
-# Ignore large data files
-data/raw/*.csv
-data/processed/*.csv
-*.csv
