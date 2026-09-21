@@ -743,5 +743,6 @@ Potential extensions include:
 
 ## License
 
-This project is intended for educational, portfolio, and demonstration
-purposes.
+Copyright (c) 2026 Uthayanithi U. All Rights Reserved.
+
+This project and its accompanying documentation, SQL schemas, ETL scripts, and Power BI reports are created for educational, portfolio, and demonstration purposes.
