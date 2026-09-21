@@ -1,0 +1,80 @@
+================================================================================
+SUPPLY CHAIN ANALYTICS - FACT ETL
+================================================================================
+
+Loading clean dataset...
+Source rows    : 180,519
+Source columns : 48
+
+PostgreSQL connection: SUCCESS
+
+================================================================================
+FACT TABLE STATUS
+================================================================================
+Existing fact rows: 0
+
+================================================================================
+LOADING DIMENSION LOOKUPS
+================================================================================
+Customer keys loaded : 20,652
+Product keys loaded  : 118
+Date keys loaded     : 1,127
+Location keys loaded : 3,772
+Shipping keys loaded : 4
+
+================================================================================
+PREPARING FACT FOREIGN KEYS
+================================================================================
+Missing customer keys: 0
+Missing product keys : 0
+Missing date keys    : 0
+Missing shipping keys: 0
+Missing location keys: 0
+
+Foreign-key resolution:
+Customer : 100% resolved
+Product  : 100% resolved
+Date     : 100% resolved
+Location : 100% resolved
+Shipping : 100% resolved
+
+================================================================================
+PREPARING FACT TABLE
+================================================================================
+Fact rows prepared: 180,519
+
+================================================================================
+FACT DATA VALIDATION
+================================================================================
+customer_id    : 0 NULL
+product_id     : 0 NULL
+date_id        : 0 NULL
+location_id    : 0 NULL
+shipping_id    : 0 NULL
+
+Duplicate order_item_id: 0
+
+================================================================================
+INSERTING FACT ORDER ITEMS
+================================================================================
+Rows ready for insertion: 180,519
+
+Database fact rows: 180,519
+
+================================================================================
+FACT ETL COMMITTED
+================================================================================
+All 180,519 fact records committed successfully.
+
+================================================================================
+POST-LOAD FACT VALIDATION
+================================================================================
+Final fact rows: 180,519
+Unique order_item_id: 180,519
+
+================================================================================
+FINAL RESULT
+================================================================================
+Fact ETL completed successfully.
+
+Report saved to: F:\Data Analytics\Projects\supply_chain_analytics\documentation\11_fact_etl_summary.txt

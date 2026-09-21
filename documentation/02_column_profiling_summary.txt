@@ -1,0 +1,219 @@
+================================================================================
+SUPPLY CHAIN COLUMN PROFILING
+================================================================================
+
+================================================================================
+COLUMN: Type
+================================================================================
+Type
+DEBIT       69295
+TRANSFER    49883
+PAYMENT     41725
+CASH        19616
+
+================================================================================
+COLUMN: Delivery Status
+================================================================================
+Delivery Status
+Late delivery        98977
+Advance shipping     41592
+Shipping on time     32196
+Shipping canceled     7754
+
+================================================================================
+COLUMN: Late_delivery_risk
+================================================================================
+Late_delivery_risk
+1    98977
+0    81542
+
+================================================================================
+COLUMN: Customer Segment
+================================================================================
+Customer Segment
+Consumer       93504
+Corporate      54789
+Home Office    32226
+
+================================================================================
+COLUMN: Market
+================================================================================
+Market
+LATAM           51594
+Europe          50252
+Pacific Asia    41260
+USCA            25799
+Africa          11614
+
+================================================================================
+COLUMN: Shipping Mode
+================================================================================
+Shipping Mode
+Standard Class    107752
+Second Class       35216
+First Class        27814
+Same Day            9737
+
+================================================================================
+COLUMN: Order Status
+================================================================================
+Order Status
+COMPLETE           59491
+PENDING_PAYMENT    39832
+PROCESSING         21902
+PENDING            20227
+CLOSED             19616
+ON_HOLD             9804
+SUSPECTED_FRAUD     4062
+CANCELED            3692
+PAYMENT_REVIEW      1893
+
+================================================================================
+COLUMN: Order Region
+================================================================================
+Order Region
+Central America    28341
+Western Europe     27109
+South America      14935
+Oceania            10148
+Northern Europe     9792
+Southeast Asia      9539
+Southern Europe     9431
+Caribbean           8318
+West of USA         7993
+South Asia          7731
+Eastern Asia        7280
+East of USA         6915
+West Asia           6009
+US Center           5887
+South of  USA       4045
+Eastern Europe      3920
+West Africa         3696
+North Africa        3232
+East Africa         1852
+Central Africa      1677
+Southern Africa     1157
+Canada               959
+Central Asia         553
+
+================================================================================
+COLUMN: Product Status
+================================================================================
+Product Status
+0    180519
+
+================================================================================
+COLUMN: Department Name
+================================================================================
+Department Name
+Fan Shop              66861
+Apparel               48998
+Golf                  33220
+Footwear              14525
+Outdoors               9686
+Fitness                2479
+Discs Shop             2026
+Technology             1465
+Pet Shop                492
+Book Shop               405
+Health and Beauty       362
+
+================================================================================
+COLUMN: Category Name
+================================================================================
+Category Name
+Cleats                  24551
+Men's Footwear          22246
+Women's Apparel         21035
+Indoor/Outdoor Games    19298
+Fishing                 17325
+Water Sports            15540
+Camping & Hiking        13729
+Cardio Equipment        12487
+Shop By Sport           10984
+Electronics              3156
+Accessories              1780
+Golf Balls               1475
+Girls' Apparel           1201
+Golf Gloves              1070
+Trade-In                  974
+Video Games               838
+Children's Clothing       652
+Women's Clothing          650
+Baseball & Softball       632
+Hockey                    614
+Cameras                   592
+Toys                      529
+Golf Shoes                524
+Pet Supplies              492
+Crafts                    484
+Garden                    484
+DVDs                      483
+Computers                 442
+Golf Apparel              441
+Hunting & Shooting        440
+Music                     434
+Consumer Electronics      431
+Boxing & MMA              423
+Books                     405
+Kids' Golf Clubs          384
+Health and Beauty         362
+Sporting Goods            357
+Lacrosse                  343
+Tennis & Racquet          328
+Fitness Accessories       309
+Men's Golf Clubs          283
+CDs                       271
+Men's Clothing            208
+Baby                      207
+Women's Golf Clubs        181
+Soccer                    138
+Strength Training         111
+As Seen on  TV!            68
+Basketball                 67
+Golf Bags & Carts          61
+
+================================================================================
+NUMERICAL COLUMN SUMMARY
+================================================================================
+                                  count        mean         std         min         25%         50%         75%          max
+Days for shipping (real)       180519.0    3.497654    1.623722     0.00000    2.000000    3.000000    5.000000     6.000000
+Days for shipment (scheduled)  180519.0    2.931847    1.374449     0.00000    2.000000    4.000000    4.000000     4.000000
+Benefit per order              180519.0   21.974989  104.433526 -4274.97998    7.000000   31.520000   64.800003   911.799988
+Sales per customer             180519.0  183.107609  120.043670     7.49000  104.379997  163.990005  247.399994  1939.989990
+Order Item Discount            180519.0   20.664741   21.800901     0.00000    5.400000   14.000000   29.990000   500.000000
+Order Item Discount Rate       180519.0    0.101668    0.070415     0.00000    0.040000    0.100000    0.160000     0.250000
+Order Item Product Price       180519.0  141.232550  139.732492     9.99000   50.000000   59.990002  199.990005  1999.989990
+Order Item Profit Ratio        180519.0    0.120647    0.466796    -2.75000    0.080000    0.270000    0.360000     0.500000
+Order Item Quantity            180519.0    2.127638    1.453451     1.00000    1.000000    1.000000    3.000000     5.000000
+Sales                          180519.0  203.772096  132.273077     9.99000  119.980003  199.919998  299.950012  1999.989990
+Order Item Total               180519.0  183.107609  120.043670     7.49000  104.379997  163.990005  247.399994  1939.989990
+Order Profit Per Order         180519.0   21.974989  104.433526 -4274.97998    7.000000   31.520000   64.800003   911.799988
+Product Price                  180519.0  141.232550  139.732492     9.99000   50.000000   59.990002  199.990005  1999.989990
+
+================================================================================
+DATE RANGE
+================================================================================
+
+order date (DateOrders)
+Minimum: 2015-01-13 00:20:00
+Maximum: 2018-01-31 23:38:00
+Invalid dates: 71,103
+
+shipping date (DateOrders)
+Minimum: 2015-01-03 00:00:00
+Maximum: 2018-02-06 22:14:00
+Invalid dates: 108,963
+
+================================================================================
+KEY ENTITY COUNTS
+================================================================================
+Order Id                      : 65,752
+Order Item Id                 : 180,519
+Customer Id                   : 20,652
+Product Card Id               : 118
+Product Category Id           : 51
+Department Id                 : 11
+
+Profiling completed.
+Report saved to F:\Data Analytics\Projects\supply_chain_analytics\documentation\column_profiling_summary.txt

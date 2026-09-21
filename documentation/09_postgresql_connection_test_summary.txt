@@ -1,0 +1,37 @@
+================================================================================
+SUPPLY CHAIN ANALYTICS - POSTGRESQL CONNECTION TEST
+================================================================================
+
+Connection configuration:
+Host     : localhost
+Port     : 5432
+Database : supply_chain_analytics
+User     : postgres
+
+================================================================================
+CONNECTION STATUS
+================================================================================
+PostgreSQL connection: SUCCESS
+Current database : supply_chain_analytics
+Current user     : postgres
+
+================================================================================
+SCHEMA VALIDATION
+================================================================================
+supply_chain schema: FOUND
+Tables in supply_chain schema: 6
+
+Tables:
+ - dim_customer
+ - dim_date
+ - dim_location
+ - dim_product
+ - dim_shipping
+ - fact_order_items
+
+================================================================================
+FINAL RESULT
+================================================================================
+PostgreSQL connection and schema validation: PASSED
+
+Report saved to: F:\Data Analytics\Projects\supply_chain_analytics\documentation\09_postgresql_connection_test_summary.txt

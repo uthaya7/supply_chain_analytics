@@ -1,0 +1,73 @@
+SUPPLY CHAIN DATA AUDIT
+======================================================================
+
+Rows: 180,519
+Columns: 53
+
+COLUMNS
+----------------------------------------------------------------------
+01. Type
+02. Days for shipping (real)
+03. Days for shipment (scheduled)
+04. Benefit per order
+05. Sales per customer
+06. Delivery Status
+07. Late_delivery_risk
+08. Category Id
+09. Category Name
+10. Customer City
+11. Customer Country
+12. Customer Email
+13. Customer Fname
+14. Customer Id
+15. Customer Lname
+16. Customer Password
+17. Customer Segment
+18. Customer State
+19. Customer Street
+20. Customer Zipcode
+21. Department Id
+22. Department Name
+23. Latitude
+24. Longitude
+25. Market
+26. Order City
+27. Order Country
+28. Order Customer Id
+29. order date (DateOrders)
+30. Order Id
+31. Order Item Cardprod Id
+32. Order Item Discount
+33. Order Item Discount Rate
+34. Order Item Id
+35. Order Item Product Price
+36. Order Item Profit Ratio
+37. Order Item Quantity
+38. Sales
+39. Order Item Total
+40. Order Profit Per Order
+41. Order Region
+42. Order State
+43. Order Status
+44. Order Zipcode
+45. Product Card Id
+46. Product Category Id
+47. Product Description
+48. Product Image
+49. Product Name
+50. Product Price
+51. Product Status
+52. shipping date (DateOrders)
+53. Shipping Mode
+
+MISSING VALUES
+----------------------------------------------------------------------
+                     Missing_Count  Missing_Percentage
+Product Description         180519              100.00
+Order Zipcode               155679               86.24
+Customer Lname                   8                0.00
+Customer Zipcode                 3                0.00
+
+DUPLICATES
+----------------------------------------------------------------------
+Duplicate rows: 0

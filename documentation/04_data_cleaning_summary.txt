@@ -1,0 +1,53 @@
+================================================================================
+SUPPLY CHAIN DATA CLEANING PIPELINE
+================================================================================
+
+[1/9] Loading raw dataset...
+Loaded 180,519 rows and 53 columns.
+
+[2/9] Standardizing column names...
+Column names standardized.
+
+[3/9] Removing unnecessary / sensitive columns...
+Removed columns:
+  - customer_email
+  - customer_password
+  - customer_fname
+  - customer_lname
+  - customer_street
+  - customer_zipcode
+  - order_zipcode
+  - product_description
+  - product_image
+
+[4/9] Cleaning date fields...
+order_date_dateorders: 0 invalid values
+shipping_date_dateorders: 0 invalid values
+
+[5/9] Handling missing values...
+Missing-value treatment completed.
+
+[6/9] Standardizing numeric fields...
+
+[7/9] Creating analytical features...
+Created:
+  - shipping_delay_days
+  - shipping_performance
+  - profit_margin
+  - discount_percentage
+
+[8/9] Running data-quality checks...
+Rows after cleaning: 180,519
+Columns after cleaning: 48
+Duplicate rows: 0
+Missing values: 0
+
+[9/9] Saving cleaned dataset...
+
+Clean dataset saved to:
+F:\Data Analytics\Projects\supply_chain_analytics\data\processed\supply_chain_clean.csv
+
+================================================================================
+CLEANING PIPELINE COMPLETED
+================================================================================
+Report saved to F:\Data Analytics\Projects\supply_chain_analytics\documentation\data_cleaning_summary.txt
