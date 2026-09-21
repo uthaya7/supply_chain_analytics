@@ -51,19 +51,16 @@ This project builds an analytical workflow that:
 
 ## Technology Stack
 
-  Technology         Purpose
-
----
-
-  **Python**         Data processing and ETL
-  **Pandas**         Data transformation
-  **NumPy**          Numerical/data manipulation
-  **PostgreSQL**     Analytical data warehouse
-  **psycopg2**       Python/PostgreSQL connectivity
-  **SQL**            Schema, validation and analytics
-  **Power BI**       Interactive dashboard
-  **DAX**            Power BI measures
-  **Git / GitHub**   Version control
+| Layer | Technology | Primary Purpose |
+| :--- | :--- | :--- |
+| **ETL & Scripting** | Python 3.x | Data extraction, automated cleaning, profiling, and loading |
+| **Data Processing** | Pandas, NumPy | Data manipulation, column normalization, type enforcement |
+| **Database Engine** | PostgreSQL | Relational analytical data warehouse |
+| **DB Connector** | psycopg2 | Python-to-PostgreSQL database connection driver |
+| **Analytics Engine** | SQL (PostgreSQL Dialect) | Data validation scripts, KPI views, root-cause queries |
+| **Business Intelligence** | Power BI Desktop | Semantic modeling, custom visual design, executive dashboarding |
+| **Calculations** | DAX | Time-intelligence calculations, dynamic reporting measures |
+| **Version Control** | Git & GitHub | Code versioning, documentation hosting, portfolio release |
 
 ## Architecture
 
@@ -747,6 +744,3 @@ Potential extensions include:
 
 This project is intended for educational, portfolio, and demonstration
 purposes.
-#� �s�u�p�p�l�y�_�c�h�a�i�n�_�a�n�a�l�y�t�i�c�s�
-�
-�
