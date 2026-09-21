@@ -737,6 +737,7 @@ Potential extensions include:
 **Uthayanithi U**
 
 *Aspiring Data Analyst / Power BI Developer / SQL Enthusiast*
+
 📧 [LinkedIn Profile](https://www.linkedin.com/in/uthaya7)
 📁 [Portfolio Website](https://github.com/uthaya7/)
 
